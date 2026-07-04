@@ -51,5 +51,5 @@ The system uses the standard ESP32 module. The components are wired directly to 
 Here is a look at the physical prototype wired up on the breadboard, featuring the ESP32, MFRC522 RFID reader module, and status indication LEDs:
 
 <p align="center">
-  <img src="1000162645.jpg" alt="Physical Hardware Setup" width="600">
+  <img src="IMG_20260703_214258_4.jpg" alt="Physical Hardware Setup" width="600">
 </p>
