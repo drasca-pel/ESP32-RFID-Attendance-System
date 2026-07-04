@@ -46,11 +46,6 @@ The system uses the standard ESP32 module. The components are wired directly to 
 
 ---
 
-## 📸 Hardware Gallery
-
-Here is a look at the physical prototype wired up on the breadboard, featuring the ESP32, MFRC522 RFID reader module, and status indication LEDs:
----
-
 ## 📸 Project Media & Demo
 
 ### 🛠️ Hardware Prototype
@@ -66,7 +61,7 @@ Here is the physical layout wired up on the breadboard:
 Below is the video demonstration showing the real-time card scanning, hardware alerts, and cloud data logging:
 
 <p align="center">
-  <video src="VID-20260703-WA0101.mp4" controls width="600" poster="IMG_20260703_214258_4.jpg">
+  <video src="https://github.com/drasca-pel/ESP32-RFID-Attendance-System/blob/main/VID-20260703-WA0101.mp4?raw=true" controls width="600" poster="IMG_20260703_214258_4.jpg">
     Your browser does not support the video tag.
   </video>
 </p>
