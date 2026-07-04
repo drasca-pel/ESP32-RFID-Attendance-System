@@ -23,4 +23,24 @@ The connected Google Spreadsheet utilizes two structured tabs to break down data
 * **Firmware:** C++ (Arduino Core)
 * **Cloud API Architecture:** JavaScript (Google Apps Script Engine)
 * **Communication Protocol:** HTTP/HTTPS REST API Client
-* 
+* ## 🔌 Hardware Pinout Configuration
+
+The system uses the standard ESP32 module. The components are wired directly to the GPIO pins as mapped below:
+
+| Component | Component Pin | ESP32 GPIO Pin | Description |
+| :--- | :--- | :--- | :--- |
+| **MFRC522 RFID** | SDA (SS) | **GPIO 5** | SPI Chip Select |
+| | SCK | **GPIO 4** | SPI Clock |
+| | MOSI | **GPIO 6** | SPI Master Out Slave In |
+| | MISO | **GPIO 7** | SPI Master In Slave Out |
+| | RST | **GPIO 3** | Reset Pin |
+| | 3.3V | **3.3V** | Power Supply |
+| | GND | **GND** | Ground |
+| **SSD1306 OLED** | SDA | **GPIO 8** | I2C Data Line |
+| | SCL | **GPIO 9** | I2C Clock Line |
+| | VCC | **3.3V / 5V** | Power Supply |
+| | GND | **GND** | Ground |
+| **Status LEDs** | Green LED (+) | **GPIO 10** | Success Indicator |
+| | Red LED (+) | **GPIO 1** | Failure/Error Indicator |
+| **Audio Alert** | Buzzer (+) | **GPIO 2** | Piezo Audio Chime |
+
