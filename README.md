@@ -55,16 +55,18 @@ Here is a look at the physical prototype wired up on the breadboard, featuring t
 
 ### 🛠️ Hardware Prototype
 Here is the physical layout wired up on the breadboard:
+
 <p align="center">
   <img src="IMG_20260703_214258_4.jpg" alt="Physical Hardware Setup" width="600">
 </p>
+
 ---
+
 ### 🎥 Live Demonstration
 Below is the video demonstration showing the real-time card scanning, hardware alerts, and cloud data logging:
 
 <p align="center">
-  <video src="" controls width="600" poster="VID-20260703-WA0101.mp4">
+  <video src="VID-20260703-WA0101.mp4" controls width="600" poster="IMG_20260703_214258_4.jpg">
     Your browser does not support the video tag.
   </video>
 </p>
-
