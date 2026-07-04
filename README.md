@@ -58,10 +58,6 @@ Here is the physical layout wired up on the breadboard:
 ---
 
 ### 🎥 Live Demonstration
-Below is the video demonstration showing the real-time card scanning, hardware alerts, and cloud data logging. **Click the image below to play the video clip:**
+Below is the video demonstration showing the real-time card scanning, hardware alerts, and cloud data logging:
 
-<p align="center">
-  <a href="https://raw.githubusercontent.com/drasca-pel/ESP32-RFID-Attendance-System/main/VID-20260703-WA0101.mp4">
-    <img src="IMG_20260703_214258_4.jpg" alt="Watch the Demo Video" width="600">
-  </a>
-</p>
+https://github.com/drasca-pel/ESP32-RFID-Attendance-System/blob/main/VID-20260703-WA0101.mp4
